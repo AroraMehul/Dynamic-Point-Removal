@@ -1,12 +1,12 @@
 Dataset:
   # Batch size for longer sequence
-  batch_size: 5
+  batch_size: 200
 
   # Please change the following paths
-  path_to_calibration: /media/mehul/EE09-CE61/data/dataset/sequences/08/calib.txt
-  path_to_gt: /media/mehul/EE09-CE61/data/dataset/sequences/08/labels/
-  path_to_poses: /media/mehul/EE09-CE61/data/dataset/sequences/SuMa_poses/08.txt
-  path_to_scans: /media/mehul/EE09-CE61/data/dataset/sequences/08/velodyne/
+  path_to_calibration: /path/to/calib
+  path_to_gt: /path/to/gt
+  path_to_poses: /path/to/poses
+  path_to_scans: /path/to/scans
 
   # Sequence number (in case the dataset contains a number of sequences e.g KITTI Dataset)
   sequence: 5
