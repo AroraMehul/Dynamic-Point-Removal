@@ -1,6 +1,6 @@
 Dataset:
   # Batch size for longer sequence
-  batch_size: 200
+  batch_size: 300
 
   # Please change the following paths
   path_to_calibration: /path/to/calib
@@ -12,7 +12,7 @@ Dataset:
   sequence: 5
 
 Height_Map:
-  resolution: [0.01, 0.05, 0.09, 0.16, 0.25] # List of resolutions using which ground is required to be segmented
+  resolution: [0.01, 0.03, 0.05, 0.07, 0.09] # List of resolutions using which ground is required to be segmented
   backward_range: -50.0 # Maximum -ve x_value for which points are to be considered.
   fwd_range: 50.0 # Maximum +ve x_value for which points are to be considered.
   left_range: 50.0 # Maximum +ve y_value for which points are to be considered.

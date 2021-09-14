@@ -170,7 +170,7 @@ def main():
             octree.insertPointCloud(
                 pointcloud=points,
                 origin=np.array([pose[0][3], pose[1][3], pose[2][3]], dtype=float),
-                maxrange=80.0,
+                maxrange=-1,
             )
 
             # Setting ground points as static in the Occupancy grid
